@@ -15,11 +15,12 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### The challenge
 
-Users should be able to:
+The challenge is to build an order summary card component and get it look as close to the design as possible.(Reference image are in ./design)
+Users should be able to see hover states for interactive elements.
 
-- See hover states for interactive elements
+### Screenshots
 
-### Screenshot
+Screenshots of the current result.
 
 #### Desktop
 ![screenshot](./images/screenshot.JPG)
@@ -27,7 +28,7 @@ Users should be able to:
 #### Mobile
 ![screenshot_mobile](./images/screenshot_mobile.JPG)
 
-### Links 
+### Link 
 
 - [Live site URL here](https://htmlpreview.github.io/?https://github.com/TristanBerger6/FM_order_summary_component/blob/main/index.html)
 
