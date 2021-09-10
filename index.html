@@ -4,34 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"><!-- icon in toolbar-->
+  <link rel="stylesheet" href="style.css" />  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
+ </head>
 <body>
+  <div class="card">
+    
+    <div class="illustration"><img src="./images/illustration-hero.svg" alt="illustration"></div>
 
-  Order Summary
+    <div class="text">
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+      <h1>Order Summary</h1>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!</p>  
 
-  Annual Plan
-  $59.99/year
+    </div>
 
-  Change
+    <div class="order_summary">
 
-  Proceed to Payment
-  Cancel Order
-  
+      <div class="icon_music"><img src="./images/icon-music.svg" alt="icon-music"></div>
+      <div class="plan_price">
+
+        <h2>Annual Plan</h2>
+        <p>$59.99/year </p>
+
+      </div>
+      <p class= "change_option"><a href="#">Change</a></p>
+
+    </div>
+
+    <p class="payment_button"> <a href="#">Proceed to Payment</a></p>
+    <p class="cancel_button"><a href="#"> Cancel Order</a></p>
+
+  </div>
+    
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Tristan Berger</a>.
   </div>
+
+  
+
+
 </body>
 </html>
