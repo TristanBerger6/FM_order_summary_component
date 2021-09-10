@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links 
 
-- [Live site URL here](./index.html)
+- [Live site URL here](https://htmlpreview.github.io/?https://github.com/TristanBerger6/FM_order_summary_component/blob/main/index.html)
 
 ## Author
 
